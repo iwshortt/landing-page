@@ -47,6 +47,7 @@ a {
 .hero {
     background-color: #1f2937;
     width: 75%;
+    gap: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -68,24 +69,33 @@ a {
     color: #e5e7eb;
     font-size: 18px;
 }
+
+.hero-img {
+    display: flex;
+    justify-content: center;
+    max-width: 400px;
+    max-height: 100%;
+    border-radius: 10px;
+}
 /* hero body */
 
 /* info body */
 .info-container {
     text-align: center;
-    padding: 100px;
+    padding: 50px 100px 100px;
 }
 
-img {
-    width: 100px;
-    height: 100px;
-    border-color: #3882f6;
+.info-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    border: 5px solid #3882f6;
 }
 
 .info-title {
     font-size: 36px;
     font-weight: bolder;
-    margin-bottom: 32px;
+    margin-bottom: 50px;
 }
 
 .container-info {
@@ -95,7 +105,7 @@ img {
 }
 
 .info {
-    max-width: 200px;
+    max-width: 250px;
 }
 /* info body */
 
@@ -138,8 +148,18 @@ img {
     background-color: #3882f6;
     padding: 50px 100px;
     gap: 100px;
+    border-radius: 10px;
     display: flex;
     justify-content: space-between;
+}
+
+.cta-title {
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.cta-body {
+    color: #e5e7eb;
 }
 
 .cta-button {
@@ -175,5 +195,10 @@ img {
 
 .cta-signup {
     border-color: white;
+}
+
+button {
+    border-radius: 5px;
+    padding: 5px 15px;
 }
 /* buttons */
